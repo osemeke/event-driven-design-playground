@@ -38,4 +38,12 @@ genericbus.Subscribe(displayscreen1);
 genericbus.Subscribe(displayscreen2);
 genericbus.Send(message); // indirect call
 
+Console.WriteLine($"\n================FAKING EVENT BUS EVENTHANDLER IMPLEMENTATION====================");
+
+var eventbus = new EventHandlerEventBus(servicePoint);
+// GetSubscribedScreens(servicePoint.Id); and do a foreach
+eventbus.Subscribe(displayscreen1);
+eventbus.Subscribe(displayscreen2);
+eventbus.Send(message); // indirect call
+
 
