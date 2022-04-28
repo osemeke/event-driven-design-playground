@@ -4,7 +4,7 @@ How to use different technologies to achieve a event publish subscriber system
 ## Leverage on the following technologies
 - Delegates
 - Events
-- Mediator Pattern
+- Mediator Design Pattern
 - Event Bus
 - MediatR
 - CQRS
