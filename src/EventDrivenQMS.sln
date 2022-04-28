@@ -5,13 +5,17 @@ VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{9EB0056C-E252-4A2F-9992-EA6CA74163FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{3B582553-02F5-4894-A10A-95F684FEA997}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{3B582553-02F5-4894-A10A-95F684FEA997}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{253978EB-8922-46EE-9D3E-94578F1E3CD3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "System", "System", "{66D5166B-2E69-4A96-B64C-9B6C198EA10A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesConsoleApp", "DelegatesConsoleApp\DelegatesConsoleApp.csproj", "{383D2FE6-6F5D-4DC5-9CDC-6ABE1F66A91C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesConsoleApp", "DelegatesConsoleApp\DelegatesConsoleApp.csproj", "{383D2FE6-6F5D-4DC5-9CDC-6ABE1F66A91C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{34D9FC5E-8434-43A9-9761-2066FE9521C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorConsoleApp", "MediatorConsoleApp\MediatorConsoleApp.csproj", "{19C178F4-D745-4742-BD77-3812D2BC8B3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,10 @@ Global
 		{383D2FE6-6F5D-4DC5-9CDC-6ABE1F66A91C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{383D2FE6-6F5D-4DC5-9CDC-6ABE1F66A91C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{383D2FE6-6F5D-4DC5-9CDC-6ABE1F66A91C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19C178F4-D745-4742-BD77-3812D2BC8B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C178F4-D745-4742-BD77-3812D2BC8B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C178F4-D745-4742-BD77-3812D2BC8B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C178F4-D745-4742-BD77-3812D2BC8B3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +42,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{3B582553-02F5-4894-A10A-95F684FEA997} = {9EB0056C-E252-4A2F-9992-EA6CA74163FD}
 		{383D2FE6-6F5D-4DC5-9CDC-6ABE1F66A91C} = {253978EB-8922-46EE-9D3E-94578F1E3CD3}
+		{34D9FC5E-8434-43A9-9761-2066FE9521C1} = {253978EB-8922-46EE-9D3E-94578F1E3CD3}
+		{19C178F4-D745-4742-BD77-3812D2BC8B3C} = {253978EB-8922-46EE-9D3E-94578F1E3CD3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6EAC879-D6D2-4306-B62B-CD7E8C704D5C}
