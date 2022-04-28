@@ -1,7 +1,7 @@
 # Event Driven Design Playground
 How to use different technologies achieve a event publish subscriber system 
 
-## How to leverage the following technologies in a publish subscriber system 
+## Leverage on the following technologies
 - Delegates
 - Events
 - Mediator
@@ -13,4 +13,3 @@ How to use different technologies achieve a event publish subscriber system
 - SignalR
 - Background Service
 - Event Brokers/ Stores Interface like RabbitMQ/ Kafka/ Redis
-- 
