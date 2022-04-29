@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesConsoleApp", "Dele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorConsoleApp", "MediatorConsoleApp\MediatorConsoleApp.csproj", "{19C178F4-D745-4742-BD77-3812D2BC8B3C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRSusingMediatR", "CQRSusingMediatR\CQRSusingMediatR.csproj", "{5524D7B7-E97C-4E76-A480-40E6F253FC74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{19C178F4-D745-4742-BD77-3812D2BC8B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19C178F4-D745-4742-BD77-3812D2BC8B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19C178F4-D745-4742-BD77-3812D2BC8B3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5524D7B7-E97C-4E76-A480-40E6F253FC74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5524D7B7-E97C-4E76-A480-40E6F253FC74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5524D7B7-E97C-4E76-A480-40E6F253FC74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5524D7B7-E97C-4E76-A480-40E6F253FC74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{3B582553-02F5-4894-A10A-95F684FEA997} = {9EB0056C-E252-4A2F-9992-EA6CA74163FD}
 		{383D2FE6-6F5D-4DC5-9CDC-6ABE1F66A91C} = {253978EB-8922-46EE-9D3E-94578F1E3CD3}
 		{19C178F4-D745-4742-BD77-3812D2BC8B3C} = {253978EB-8922-46EE-9D3E-94578F1E3CD3}
+		{5524D7B7-E97C-4E76-A480-40E6F253FC74} = {253978EB-8922-46EE-9D3E-94578F1E3CD3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6EAC879-D6D2-4306-B62B-CD7E8C704D5C}
