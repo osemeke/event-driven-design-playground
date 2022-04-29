@@ -37,7 +37,7 @@ How to use different technologies to achieve a event publish subscriber system
 - `Query` and `Command` are refered to as `Request` in MediatR
 - `Event` is refered to as `Notification` in MediatR 
 - A `Request` should be immutable so the setter property removed i.e `{ get; }`
-- Controller request > Query/Command<response> > Handler<request,response> > Repository. Here request is the Query/Command type.
+- Request pipeline: Controller > Query or Command `Tresponse` > Handler `Trequest,Tresponse` > Repository. Here Trequest is the Query/Command type.
 
 ### Nuget Packages
 
