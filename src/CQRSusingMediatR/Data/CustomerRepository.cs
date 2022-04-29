@@ -8,6 +8,7 @@ namespace CQRSusingMediatR.Data
 
         public CustomerRepository()
         {
+            //seeding
             customers.Add(new Customer 
             { 
                 Id = Guid.NewGuid().ToString(), 

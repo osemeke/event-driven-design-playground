@@ -1,4 +1,5 @@
 ﻿using CQRSusingMediatR.CQRS.Commands;
+using CQRSusingMediatR.CQRS.Events;
 using CQRSusingMediatR.CQRS.Queries;
 using CQRSusingMediatR.Models;
 using MediatR;
@@ -39,7 +40,18 @@ namespace CQRSusingMediatR.Controllers
         public async Task<IActionResult> CreateCustomer(CreateCustomerRequest customer)
         {
             var response = await _mediator.Send(new CreateCustomerCommand(customer));
+            await Notify(customer.Name);
             return Ok(response);
+        }
+
+        private async Task Notify(string name)
+        {
+            var @event = new CustomerCreatedEvent
+            {
+                CustomerName = name,
+            };
+
+            await _mediator.Publish(@event);
         }
 
     }

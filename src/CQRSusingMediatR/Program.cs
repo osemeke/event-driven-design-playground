@@ -7,6 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+// services.AddMediatR(assemby)
+//any class in the assemby where the handlers live! 
+//important word here is 'handlers'! 'any class' as mediatr is interested in the assembly only
 
 //builder.Services.AddMediatR(typeof(Startup).Assembly); // if declared in Startup.cs
 //builder.Services.AddMediatR(typeof(Program).Assembly); // if declared in Program.cs

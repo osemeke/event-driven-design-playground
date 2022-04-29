@@ -6,19 +6,23 @@ How to use different technologies to achieve a event publish subscriber system
 - Events
 - Mediator Design Pattern
 - Event Bus
-- MediatR
-- CQRS
-- WebRTC
+- CQRS using MediatR
+- Docker Containers
 - RabbitMQ
 - CQRS with RabbitMQ
 - SignalR
 - Background Service
+- WebRTC
 - Data Streaming
 - Event Brokers/ Stores Interface like RabbitMQ/ Kafka/ Redis
+	
+## CQRS using MediatR guide
 
-## Nuget Packages
+### Nuget Packages
 
-dotnet add package MediatR --version 10.0.1
-dotnet add package MediatR.Extensions.Microsoft.DependencyInjection --version 10.0.1
+	`dotnet add package MediatR --version 10.0.1`
+	`dotnet add package MediatR.Extensions.Microsoft.DependencyInjection --version 10.0.1`
+
+
 
 
