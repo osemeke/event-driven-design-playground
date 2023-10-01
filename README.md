@@ -32,7 +32,7 @@ How to use different technologies to achieve a event publish subscriber system
 - In the controler add `private IMediator _mediator;`
 - write controller action
 
-### Observaations 
+### Observations 
 
 - `Query` and `Command` are refered to as `Request` in MediatR
 - `Event` is refered to as `Notification` in MediatR 
